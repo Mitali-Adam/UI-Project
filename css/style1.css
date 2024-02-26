@@ -1,0 +1,36 @@
+#div1
+{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 2px grey;
+}
+#div1 h1
+{
+    color: black;
+    text-align: center;
+}
+#div1 p
+{
+    font-size: 16px;
+    color: white;
+}
+#div2
+{
+    background-color: cadetblue;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px grey;
+}
+#div2 h1
+{
+    color: black;
+    text-align: center;
+}
+#div2 p
+{
+    font-size: 16px;
+    color: white;
+}
