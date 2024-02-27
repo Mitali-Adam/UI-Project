@@ -49,22 +49,25 @@
 }
 .Login
 {
-    width: 30%;
-    height: 300px;
+    width: 23%;
+    height: 350px;
     margin: auto;
     position: absolute;
     top: 25%;
-    right: 45%;
-    border: 4px solid white; 
+    right: 65%;    
+    border: 4px solid rgb(106, 4, 4); 
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
+    box-shadow: 5px 5px 15px 10px rgba(245, 2, 2, 0.929);
 }
 .Login h2
 {
     text-align: center;
     padding: 10px;
+    margin: 10px;
     color: white;
     font-family: "Kode Mono", monospace;
+    font-weight: normal;
 }
 .form-page
 {
@@ -75,51 +78,58 @@
 { 
     width: 100%;
     color: white;
-    font-family: "Kode Mono", monospace;
-    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 input[type=text]
 {
-    width: 90%;
-    height: 30px;
+    width: 87%;
+    height: 35px;
     border: none;
-    background: none;
+    /* background: none; */
     outline: none;
-    color: white;
-    margin-bottom: 10px;
-    border-bottom: 1px solid white;
+    color: rgb(8, 6, 6);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-image: url(./imgs/user2.png);
 }
 input[type=text]::placeholder
 {
     text-align: center;
-    color: wheat;
+    color: rgb(10, 10, 9);
 }
 input[type=password]
 {
-    width: 90%;
-    height: 30px;
+    width: 87%;
+    height: 35px;
     border: none;
-    background: none;
+    /* background: none; */
     outline: none;
-    color: white;
-    border-bottom: 1px solid white;
+    margin-top: 10px;
+    /* color: white;
+    border-bottom: 1px solid white; */
+    border-radius: 5%;
+    border: 1px solid white;
 }
 input[type=password]::placeholder
 {
     text-align: center;
-    color: wheat;
+    color: rgb(6, 6, 6);
 }
 input[type=submit]
 {
-    width: 20%;
+    width: 40%;
     height: 30px;
-    margin: 20px 160px;
+    margin: 30px 80px;
     padding: 5px 10px;
-    background: none;
-    color: white;
+    color: black;
+    /* background: none; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 input[type=submit]:hover
 {
-    background-color: red;
-    color: whitesmoke;
+    background-color: rgb(252, 247, 247);
 }
