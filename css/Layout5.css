@@ -10,7 +10,7 @@
     min-height: 600px;
     border: 2px solid black;
     margin:  10px auto;
-    background-image: linear-gradient(to top,#8E0E00,#1F1C18);
+    background-image: linear-gradient(to left,#8E0E00,#1F1C18);
 }
 .box
 {
@@ -18,16 +18,24 @@
     height: 70px;
     margin: auto;
 }
+.background
+{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+    background-image: url(/imgs/netflix-background.jpg);
+    background-size: 100% 100%;
+}
 .title
 {
     float: left;
-    margin-top: 10px;
 }
 .title h1
 {
     color: red;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 50px;
+    margin-left: 20px;
 }
 .menu-bar
 {
@@ -59,6 +67,7 @@
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
     box-shadow: 5px 5px 15px 10px rgba(245, 2, 2, 0.929);
+    background-color: #1F1C18;
 }
 .Login h2
 {
@@ -84,7 +93,7 @@
 input[type=text]
 {
     width: 87%;
-    height: 35px;
+    height: 40px;
     border: none;
     /* background: none; */
     outline: none;
@@ -93,12 +102,15 @@ input[type=text]
     margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid white;
-    background-image: url(./imgs/user2.png);
 }
 input[type=text]::placeholder
 {
-    text-align: center;
+    text-align: left;
+    padding-left: 35px;
     color: rgb(10, 10, 9);
+    background-image: url(/imgs/user2.png);
+    background-repeat: no-repeat;
+    background-size: 13% 120%;
 }
 input[type=password]
 {
@@ -115,8 +127,12 @@ input[type=password]
 }
 input[type=password]::placeholder
 {
-    text-align: center;
+    text-align: left;
+    padding-left: 35px;
     color: rgb(6, 6, 6);
+    background-image: url(/imgs/lock.png);
+    background-repeat: no-repeat;
+    background-size: 13% 110%;
 }
 input[type=submit]
 {
@@ -128,6 +144,9 @@ input[type=submit]
     /* background: none; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    background-image: url(/imgs/login.png);
+    background-repeat: no-repeat;
+    background-size: 20% 110%;
 }
 input[type=submit]:hover
 {
