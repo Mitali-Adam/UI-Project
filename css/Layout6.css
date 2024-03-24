@@ -1,0 +1,74 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section
+{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    background-image: linear-gradient(180deg,#1f4037,#99f2c8,#069eac), url(/imgs/painter.png);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+section .box
+{
+    width: 700px;
+    margin-left: 10px;
+}
+section .box h1
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+section .box p
+{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Lobster", sans-serif;
+}
+section img
+{
+    max-width: 900px;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+}
+.wave
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.custom-shape-divider-bottom-1709114360 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1709114360 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 241px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1709114360 .shape-fill {
+    fill: #FFFFFF;
+}
