@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid black;
+}
+.box h1
+{
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    background-color: thistle;
+}
+.box ul
+{
+    margin-top: 20px;
+}

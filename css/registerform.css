@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Form
+{
+    width: 80%;
+    min-height: 100vh;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(116, 5, 219);
+}
+.info1
+{
+    width: 45%;
+    height: 100px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+input[type=text]
+{
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+select[id=date]
+{
+    border-radius: 5px;
+}
+select[name=date]
+{
+    margin-left: 30px;
+}
+
+.info2
+{
+    width: 36%;
+    height: 20px;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.info2 input[type=text]
+{
+    margin-left: 80px;
+}
+
+.info3
+{
+    width: 36%;
+    height: 20px;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.info3 input[type=text]
+{
+    margin-left: 22px;
+}
+.info3 input[type=radio]
+{
+    margin-right: 10px;
+}
+.info3 input[value=male]
+{
+    margin-left: 80px;
+}
+.info3 input[value=female]
+{
+    margin-left: 20px;
+}

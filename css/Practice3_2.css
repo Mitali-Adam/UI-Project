@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background
+{
+    width: 90%;
+    min-height: 150px;
+    border: 1px solid black;
+    margin: auto;
+    border-bottom: none;
+}
+.custom-shape-divider-top-1714745034 {
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 90%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1714745034 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 163px;
+}
+.custom-shape-divider-top-1714745034 .shape-fill {
+    fill: rgb(228, 157, 242);
+}
+.custom-shape-divider-top-1714754794 {
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 90%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1714754794 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 75px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1714754794 .shape-fill {
+    fill: #8b1deba3;
+}
+.custom-shape-divider-top-1714754903 {
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 90%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1714754903 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 158px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1714754903 .shape-fill {
+    fill: #c217e596;
+}
+.custom-shape-divider-top-1714754903 h1
+{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 40px;
+    left: 40px;
+}
+.wrapper
+{
+    width: 90%;
+    min-height: 100vh;
+    border: 1px solid black;
+    border-top: none;
+    margin: auto;
+}
+.wrapper .box1
+{
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+}
+button[type=btn1]
+{
+    background-color: rgb(81, 81, 255);
+    color: white;
+    width: 20%;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
+button[type=btn2]
+{
+    background-color: rgb(146, 69, 160);
+    color: white;
+    width: 25%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
